@@ -196,3 +196,5 @@ public class Application {
 将上面的文件下载下来依次放到html下的css、images、js目录下
 
 在html文件中全局搜索email-decode.min.js并替换为相对路径，然后一个新鲜的离线版用户手册就诞生了，从tomcat中拿出来邮件浏览器打开即可使用，还不带google统计，跟官方在线版本简直一毛一样啊。
+
+离线doc点击下载
