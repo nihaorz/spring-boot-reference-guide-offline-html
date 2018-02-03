@@ -40,7 +40,7 @@ public class Application {
     private static final String HTML_END_STR = ".html";
 
     public static void main(String[] args) throws IOException {
-        String storePath = "C:\\work\\IDEA_WS\\OperationCenter_WS\\spring-boot-doc-download\\src\\main\\doc\\1.5.9.RELEASE\\reference\\html";
+        String storePath = "C:\\work\\IDEA_WS\\spring-boot-reference-guide-offline-html\\src\\main\\doc";
         String version = "1.5.9.RELEASE";
         generateHtmlDoc(storePath, version);
     }
