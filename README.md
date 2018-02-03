@@ -1,6 +1,6 @@
 # Spring Boot 1.5.9.RELEASE版本用户手册下载程序
 
-本示例演示Spring Boot 1.5.9.RELEASE版本的用户手册下载
+**本示例演示使用java代码下载Spring Boot 1.5.9.RELEASE版本的用户手册，从而制作离线手册。**
 
 #### pom.xml
 
@@ -147,9 +147,7 @@ public class Application {
 
 
 
-> 运行main函数会在C:\work\IDEA_WS\spring-boot-reference-guide-offline-html\src\main\doc目录下生成html文件
-
-将以下脚本批量为空字符串
+运行main函数会在C:\work\IDEA_WS\spring-boot-reference-guide-offline-html\src\main\doc目录下生成html文件，使用批量替换将以下脚本批量为空字符串
 
 ```javascript
 <script>if(window.parent==window){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-2728886-23','auto',{'siteSpeedSampleRate':100});ga('send','pageview');}</script>
@@ -175,7 +173,7 @@ public class Application {
 >
 > email-decode.min.js
 
-他们的真是下载地址如下：
+他们的真实下载地址如下：
 
 > <https://docs.spring.io/spring-boot/docs/1.5.9.RELEASE/reference/html/css/highlight.css>
 >
@@ -197,4 +195,4 @@ public class Application {
 
 将上面的文件下载下来依次放到html下的css、images、js目录下
 
-在上面的html文件中全局搜索email-decode.min.js并替换为相对路径，然后一个新鲜离线版用户手册就诞生了，从tomcat中拿出来邮件浏览器打开即可使用，还不带google统计，跟官方在线版本简直一毛一样啊。
+在html文件中全局搜索email-decode.min.js并替换为相对路径，然后一个新鲜的离线版用户手册就诞生了，从tomcat中拿出来邮件浏览器打开即可使用，还不带google统计，跟官方在线版本简直一毛一样啊。
