@@ -74,6 +74,14 @@ public class Application {
         }
     }
 
+    /**
+     * 保存html文件
+     *
+     * @param storePath
+     * @param urlPath
+     * @param html
+     * @throws IOException
+     */
     private static void saveHtml(String storePath, String urlPath, String html) throws IOException {
         if (!urlPath.contains(".html#")) {
             if (!urlPath.endsWith(HTML_END_STR)) {
