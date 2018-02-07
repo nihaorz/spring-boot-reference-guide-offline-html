@@ -2,7 +2,7 @@
 
 **本示例演示使用java代码下载Spring Boot 1.5.9.RELEASE版本的用户手册，从而制作离线手册。**
 
-#### pom.xml
+## pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -33,7 +33,7 @@
 
 
 
-#### Application.java
+## Application.java
 
 ```java
 package com.nihaorz.spring.boot.reference.guide.offline.html;
@@ -144,9 +144,6 @@ public class Application {
 }
 
 ```
-
-
-
 运行main函数会在C:\work\IDEA_WS\spring-boot-reference-guide-offline-html\src\main\doc目录下生成html文件，使用批量替换将以下脚本批量为空字符串
 
 ```javascript
