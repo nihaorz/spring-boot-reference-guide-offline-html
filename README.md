@@ -197,4 +197,4 @@ public class Application {
 
 在html文件中全局搜索email-decode.min.js并替换为相对路径，然后一个新鲜的离线版用户手册就诞生了，从tomcat中拿出来邮件浏览器打开即可使用，还不带google统计，跟官方在线版本简直一毛一样啊。
 
-[离线doc点击下载](./raw/master/src/main/download/spring-boot-reference-guide-offline-html.zip)
+什么，你不想执行main函数制作离线doc，那你就到`/src/main/download/`目录下去下载`spring-boot-reference-guide-offline-html.zip`吧
